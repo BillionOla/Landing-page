@@ -1,0 +1,86 @@
+body {
+            background: rgb(81, 64, 81);
+        }
+        .dark {
+            background: black;
+            color: white;
+        }
+        .dark button {
+          background: white;
+          color:black;
+        }
+        .dark a{
+            color: plum;
+        }
+        .dark .container {
+            background: rgba(255, 255, 255, 0.48)
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            text-align: center;
+        }
+        img {
+            width:100%;
+            height:100%;
+        }
+        .grid{
+            margin: 30px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-gap: 15px;
+           
+        }
+        .grid img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        p {
+            font-size:15px;
+            line-height: 1.5;
+        }
+        .women-intro-coding{
+        border-radius: 10px;
+        transition: 150ms ease-in-out;
+        }
+        .women-intro-coding:hover {
+            opacity: 0.7;
+            transform: scale(1.1);
+        }
+        .container {
+            max-width:600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin: 20px auto;
+        }
+        button {
+            display: block;
+            border: 1px solid plum;
+            padding: 10px 15px;
+            background:white;
+            font-size: 20px;
+            border-radius: 20px;
+            margin: 0 auto;
+            transition: all 150ms ease-in-out;
+        }
+        button:hover {
+            background: plum;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            margin: 10px 0;
+            font-size: 15px;
+        }
+        .theme-button {
+             font-size:10px;
+             background:black;
+             color:white;
+             padding: 5 8px;
+        }
+        .theme-button:hover {
+            color : black;
+            background: white;
+        }
